@@ -38,5 +38,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: CHESTERAIGO/DOCKER-PRACTICE-REPO:1.0.0
           labels: ${{ steps.meta.outputs.labels }}
