@@ -1,5 +1,6 @@
 name: Publish Dockerfile on DockerHub
 on: 
+  workflow_dispatch: {}
   push: 
     branches:
       - main
